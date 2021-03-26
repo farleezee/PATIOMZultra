@@ -106,9 +106,9 @@ const nft2 = new Entity('nft2')
 engine.addEntity(nft2)
 nft2.setParent(_scene)
 const transform9 = new Transform({
-  position: new Vector3(0.5000000596046448, 2.0290770530700684, 12.59545612335205),
+  position: new Vector3(0.5, 2.0290770530700684, 12.652631759643555),
   rotation: new Quaternion(1.5601851374150068e-15, 0.7071067690849304, -8.429368847373553e-8, -0.7071068286895752),
-  scale: new Vector3(7.043091773986816, 4.9244489669799805, 1)
+  scale: new Vector3(6.5082268714904785, 4.9244489669799805, 1)
 })
 nft2.addComponentOrReplace(transform9)
 const nftShape2 = new NFTShape("ethereum://0x60f80121c31a0d46b5279700f9df786054aa5ee5/385727")
@@ -148,3 +148,18 @@ nftShape3.isPointerBlocker = true
 nftShape3.visible = true
 nftShape3.color = {"r":0.6404918,"g":0.611472,"b":0.8584906}
 nft3.addComponentOrReplace(nftShape3)
+
+const basketballHoop2 = new Entity('basketballHoop2')
+engine.addEntity(basketballHoop2)
+basketballHoop2.setParent(_scene)
+const transform12 = new Transform({
+  position: new Vector3(15.5, 2.5, 8),
+  rotation: new Quaternion(-3.253247509639348e-15, 0.7071069478988647, -8.42937097900176e-8, -0.7071065902709961),
+  scale: new Vector3(0.9999994039535522, 1, 0.9999994039535522)
+})
+basketballHoop2.addComponentOrReplace(transform12)
+const gltfShape5 = new GLTFShape("models/Basketball_Hoop.glb")
+gltfShape5.withCollisions = true
+gltfShape5.isPointerBlocker = true
+gltfShape5.visible = true
+basketballHoop2.addComponentOrReplace(gltfShape5)
