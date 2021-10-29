@@ -11,7 +11,7 @@ _scene.addComponentOrReplace(transform)
 const entity = new Entity('entity')
 engine.addEntity(entity)
 entity.setParent(_scene)
-const gltfShape = new GLTFShape("models/FloorBaseGrass_01/FloorBaseGrass_01.glb")
+const gltfShape = new GLTFShape("da1fed3c954172146414a66adfa134f7a5e1cb49c902713481bf2fe94180c2cf/FloorBaseGrass_01/FloorBaseGrass_01.glb")
 gltfShape.withCollisions = true
 gltfShape.isPointerBlocker = true
 gltfShape.visible = true
@@ -32,7 +32,7 @@ const transform3 = new Transform({
   scale: new Vector3(4.000000476837158, 1, 4.000000953674316)
 })
 floorBlue.addComponentOrReplace(transform3)
-const gltfShape2 = new GLTFShape("models/BlueFloor.glb")
+const gltfShape2 = new GLTFShape("727e6367781a8c96f18fe727e623a3991cef8019cf0833281450b733df663ae2/BlueFloor.glb")
 gltfShape2.withCollisions = true
 gltfShape2.isPointerBlocker = true
 gltfShape2.visible = true
@@ -41,7 +41,7 @@ floorBlue.addComponentOrReplace(gltfShape2)
 const doorframeHorizontalBoard6 = new Entity('doorframeHorizontalBoard6')
 engine.addEntity(doorframeHorizontalBoard6)
 doorframeHorizontalBoard6.setParent(_scene)
-const gltfShape3 = new GLTFShape("models/HorizontalBoardDoorframe.glb")
+const gltfShape3 = new GLTFShape("28f6c48abb2b46b0d0325699d5f6c41e5967cdd45ec8e4d3ab594ddd1f13d265/HorizontalBoardDoorframe.glb")
 gltfShape3.withCollisions = true
 gltfShape3.isPointerBlocker = true
 gltfShape3.visible = true
@@ -127,7 +127,7 @@ const transform10 = new Transform({
   scale: new Vector3(7.9154510498046875, 1, 7.963193893432617)
 })
 roofMetalEdgesSmall.addComponentOrReplace(transform10)
-const gltfShape4 = new GLTFShape("models/MetalRoof_4Edges_Small.glb")
+const gltfShape4 = new GLTFShape("94fcd65b69eb64811e773b567a38b3507ef447fb052dc0bc00788f2d2d1cfd79/MetalRoof_4Edges_Small.glb")
 gltfShape4.withCollisions = true
 gltfShape4.isPointerBlocker = true
 gltfShape4.visible = true
@@ -158,7 +158,7 @@ const transform12 = new Transform({
   scale: new Vector3(0.9999994039535522, 1, 0.9999994039535522)
 })
 basketballHoop2.addComponentOrReplace(transform12)
-const gltfShape5 = new GLTFShape("models/Basketball_Hoop.glb")
+const gltfShape5 = new GLTFShape("44000c55b6dd092e6a8eaa656af6f18bbdec7714a2d9b252686db1003f24cc41/Basketball_Hoop.glb")
 gltfShape5.withCollisions = true
 gltfShape5.isPointerBlocker = true
 gltfShape5.visible = true
